@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вывод и удаление cookie</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Список имеющихся cookie</h2>
+    <table id="cookies-tbl">
+        <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Значение</th>
+            <th>Удаление</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <form id="cookie-form">
+        <fieldset>
+            <legend>Добавление cookie:</legend>
+            <div>
+                Имя:
+            </div>
+            <div>
+                <input id="cookie-name" type="text" name="cookie-name">
+            </div>
+            <div>
+                Значение:
+            </div>
+            <div>
+                <input id="cookie-value" type="text" name="cookie-value">
+            </div>
+            <div>
+                Срок годности (количество дней):
+            </div>
+            <div>
+                <input id="cookie-expired" type="number" name="cookie-expired">
+            </div>
+            <div>
+                <input id="cookie-btn" type="button" value="Добавить">
+            </div>
+        </fieldset>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
