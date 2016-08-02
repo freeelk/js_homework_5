@@ -33,7 +33,7 @@ window.addEventListener('load', () => {
 
 function outTable(cookiesTbl) {
     let cookies = getCookiesArray();
-    
+
     while (cookiesTbl.firstChild) {
         cookiesTbl.removeChild(cookiesTbl.firstChild);
     }
